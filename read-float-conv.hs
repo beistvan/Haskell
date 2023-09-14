@@ -1,3 +1,3 @@
 main = do
-let nFloat = read "100.01" :: Float
-print(nFloat)
+let fFloat = read "100.01" :: Float
+print(fFloat)
