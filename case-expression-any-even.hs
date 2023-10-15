@@ -9,3 +9,4 @@ anyEven nums = case (removeOdd nums) of
 
 main = do
     print $ anyEven [5, 6, 8, 1] -- True
+    print $ anyEven [5, 1] -- False
