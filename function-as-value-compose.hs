@@ -5,4 +5,5 @@ mult2 x = 2 * x
 
 main = do
     print $ compose add1 mult2 4 -- 9
+
     -- add1 (mult2 4) = (2 * 4) + 1 = 9
