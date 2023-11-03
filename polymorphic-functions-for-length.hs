@@ -15,7 +15,7 @@ main = do
     print $ length_ints [1, 2, 3] -- 3
     print $ length_chars ['a' , 'b', 'c'] -- 3
     
--- polymorphic length1 calls'
+-- polymorphic lengthPoly calls'
     print $ lengthPoly [1, 2, 3] -- 3
     print $ lengthPoly ['a' , 'b', 'c'] -- 3 
     
