@@ -20,6 +20,6 @@ main = do
     let sally = alice { name = "Sally", luckyNumber = 84}
 
     print $ name sally -- "Sally"
-    print $ luckyNumber sally -- 42
+    print $ luckyNumber sally -- 84
     print $ customerId sally -- (id:13)
     putStrLn $ name sally -- Sally
